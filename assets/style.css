@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+._heading, ._heading2 {
+  color: greenyellow;
+  font-size: 64px;
+  position: absolute;
+  top: 45%;
+  
+}
+._heading2 {
+    color: red;
+    top: 52%;
+    
+  }
