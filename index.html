@@ -9,13 +9,48 @@
 </head>
 
 <body>
+    <header class="header">
+        <a class="logo" href="/">Weather360 🌞</a>
+    </header>
+    
+    
+    <div id="main" class="main">
+        <section class="intro">
+            <article class="_hero">
+                <h1>
+                    See, Feel, and Experience the <strong>Forecast</strong>
+                </h1>
+                <h2>
+                    Weather Insights at Your Fingertips: Discover, Predict, Prepare
+                </h2>
 
-    <marquee direction="right" class="_heading">
-        Hello_coder!!
-    </marquee>
-    <marquee direction="left" class="_heading2">
-        ☕
-    </marquee>
+            </article>
+            </section>
+            
+            <section>
+                <div class="container">
+                    <select id="unitSelect">
+                        <option value="C" selected>Celcius </option>
+                        <option value="F">Farenheit</option>
+                    </select>
+                    <input type="text" id="locationInput" placeholder="Enter location (e.g. city or zip code)">
+            
+                    <button onclick="getWeather()">Get Weather</button>
+            
+                </div>
+                <div id="weatherDisplay" class="card-container"></div>
+            
+            </section>
+            </div>
+            <footer>
+                <div class="wrapper">
+                    <small>&copy;2023 <strong>Weather360🌞 </strong>, All Rights Reserved</small>
+                    <nav class="footer-nav">
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Privacy</a>
+                    </nav>
+                </div>
+            </footer>
 
     <script src="./assets/index.js"></script>
 </body>
